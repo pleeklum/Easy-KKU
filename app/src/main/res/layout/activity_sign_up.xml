@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_sign_up"
     android:layout_width="match_parent"
@@ -8,6 +9,90 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.pleeklum.easykku.SignUpActivity">
+    tools:context="com.pleeklum.easykku.SignUpActivity"
+    android:background="@drawable/bg6">
 
+    <TextView
+        android:text="@string/SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="@dimen/h1"
+        android:textStyle="normal|bold"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_margin="15sp"
+        android:background="#82ffffff">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/icon"
+            app:srcCompat="@drawable/masterung_icon"
+            android:id="@+id/imageView" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Name :"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:hint="Name"
+                android:textColor="@color/aText"
+                android:textColorHint="@color/aText" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="Phone :"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:hint="Phone"
+                android:textColor="@color/aText"
+                android:textColorHint="@color/aText" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="User :"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:hint="User"
+                android:textColor="@color/aText"
+                android:textColorHint="@color/aText" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Password :"
+                android:ems="10"
+                android:id="@+id/editText5"
+                android:hint="password"
+                android:textColor="@color/aText"
+                android:textColorHint="@color/aText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 </RelativeLayout>
