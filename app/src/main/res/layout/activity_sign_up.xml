@@ -32,9 +32,10 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#82ffffff"
+        android:layout_marginTop="15dp"
         android:layout_below="@+id/textView"
-        android:layout_margin="15sp"
-        android:background="#82ffffff">
+        android:layout_centerHorizontal="true">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -52,7 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:text="Name :"
+                android:text="Name : "
                 android:ems="10"
                 android:id="@+id/editText"
                 android:hint="Name"
@@ -63,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:text="Phone :"
+                android:text="Phone : "
                 android:ems="10"
                 android:id="@+id/editText2"
                 android:hint="Phone"
@@ -74,7 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:text="User :"
+                android:text="User : "
                 android:ems="10"
                 android:id="@+id/editText3"
                 android:hint="User"
@@ -85,7 +86,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:text="Password :"
+                android:text="Password : "
                 android:ems="10"
                 android:id="@+id/editText5"
                 android:hint="password"
